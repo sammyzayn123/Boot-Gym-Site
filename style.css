@@ -1,0 +1,42 @@
+.logo{
+    padding: 7px;
+}
+.px-4 {
+/* background-image: url(Hero.jpg);
+background-size: cover;
+background-position: center;
+color: white; */
+
+}
+/* 
+ h1{
+    color:hsl(213, 91%, 64%) ;
+} */
+
+.gradient-background{
+    background:linear-gradient(300deg,#00bfff,#ff4c68,#ef8172);
+    /* background-size: 180% 180%; */
+    animation: LOL 20s infinite  ;
+    color: white;
+}
+
+@keyframes LOL {
+    
+    100%{
+        /* width: 100; */
+        filter:hue-rotate(300deg);
+    }
+}
+
+/* .attraction{
+    padding: 10px;
+    border-radius:10px ;
+    size: 20vh;
+} */
+.container1 img{
+    /* width: 30vw; */
+    padding: 45px;
+    /* animation: LOL 14s infinite  */
+    /* filter:hue-rotate(300deg); */
+    /* size-adjust:inherit; */
+}
